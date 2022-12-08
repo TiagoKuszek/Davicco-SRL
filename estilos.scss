@@ -9,6 +9,10 @@
     width: 700px;
     margin-top: 45px;
 }
+.dav{
+    color: white;
+    text-decoration: underline 5% red;
+}
 .boton{
     
     text-align: center;
@@ -30,7 +34,7 @@
         font-size: 22px;
         background-color: red;
         color: white;
-        border: 1px solid black;
+        border: 2px solid black;
         border-radius: 8px;
         padding: 10px;
         padding: 15px 15px 15px 15px;
@@ -40,6 +44,7 @@
     button:hover{
         transform: translate(-30px) ;
         transition: 1.5s;
+        background-color: rgb(182, 14, 14);
     }
 }
 .carrusel{
