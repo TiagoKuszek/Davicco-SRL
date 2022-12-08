@@ -17,16 +17,23 @@
   text-align: center;
   color: white;
   margin-top: 200px;
-  font-size: 30px;
+  font-size: 25px;
+  transform: scale(1);
+  transition: 1.5s;
+}
+.boton h1:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
 }
 .boton button {
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 22px;
   background-color: red;
   color: white;
   border: 1px solid black;
   border-radius: 6px;
   padding: 10px;
+  padding: 15px 15px 15px 15px;
 }
 
 .carrusel {
@@ -70,6 +77,40 @@
   margin-right: 100px;
 }
 
+.maquina-escribir {
+  background-color: #0df053;
+  position: relative;
+}
+
+.maquina-escribir::after {
+  content: "";
+  border-left: 3px solid black;
+  background-color: white;
+  right: 0;
+  width: 100%;
+  height: 33%;
+  position: absolute;
+  -webkit-animation: maquinaescribir 2s infinite alternate steps(303);
+          animation: maquinaescribir 2s infinite alternate steps(303);
+}
+
+@-webkit-keyframes maquinaescribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes maquinaescribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
 .fotona {
   height: 550px;
   width: 700px;
