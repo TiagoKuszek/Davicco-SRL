@@ -9,7 +9,26 @@
     width: 700px;
     margin-top: 45px;
 }
-
+.boton{
+    
+    text-align: center;
+    h1{
+        text-align: center;
+        color: white;
+        margin-top: 200px;
+        font-size: 30px;
+    }
+    
+    button{
+        margin-top: 40px;
+        font-size: 20px;
+        background-color: red;
+        color: white;
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 10px;
+    }
+}
 .carrusel{
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -17,6 +36,13 @@
 
 #nav{
     height: 100px;
+    font-size: 20px;
+}
+.fondoimg{
+    background-image: url(./img/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 680px;
 }
 .quienes{
     margin-top: 100px;
@@ -50,18 +76,72 @@
 .serv{
     text-align: center;
     color: blue;
+    font-size: 40px;
+}
+.serv:hover{
 }
 .serv1{
     margin-top: 30px;
-    margin-left: 350px;
+    margin-left: 30px;
     margin-right: 50px;
     color: red;
+    font-size: 20px;
 }
 .formulario{
     margin-top: 70px;
     text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .mapardo{
     width: 100%;
     margin-top: 100px;
+}
+#hola{
+    color: white;
+    text-decoration: none;
+}
+#hola:hover{
+    color: red;
+}
+
+
+#mapardo{
+    padding-bottom: 80px;
+}
+.form-group{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+    }
+}
+.fotona{
+    height: 500px;
+    width: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

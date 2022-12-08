@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="js/jQuery.js">
     <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/a2c453f2cf.js" crossorigin="anonymous"></script>
     <title>Davicco SRL</title>
 </head>
-<body>
-    
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark" id="nav">
+<body> 
+
+    <div>
+        <a href="" class="btn-wsp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+<div class="fondoimg">
+    <nav class="navbar navbar-expand-md navbar-dark" id="nav">
         <!-- Brand -->
         <a class="navbar-brand text-light" href="#">Davicco SRL</a>
         
@@ -25,62 +33,31 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" id="hola" href="#">Contacto</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nosotros</a>
+                <a class="nav-link" id="hola" href="#">Que hacemos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Clientes</a>
+                <a class="nav-link" id="hola" href="#">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="hola" href="#">Clientes</a>
             </li>
             </ul>
         </div>
         </nav>
-
-        <main>
-            <div id="demo" class="carousel slide" data-ride="carousel">
-
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
-                    <li data-target="#demo" data-slide-to="3"></li>
-                </ul>
-                
-                <!-- The slideshow -->
-            <div class="carrusel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="img-fluid" src="./img/1.jpg" id="imagenes" alt="Los Angeles">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="/img/2.jpg" id="imagenes" alt="Chicago">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="/img/3.jpg" id="imagenes"  alt="New York">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="/img/4.jpg" id="imagenes"  alt="New York">
-                    </div>
-                </div>
-            </div>    
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-                
-                </div>
-        </main>
+<div class="boton">
+        <h1>Sabemos lo que hacemos por lo tanto su comodidad y confort es el resultado que logramos.</h1>
+        <button>Contactanos</button>
+</div>
+</div>
 
         <div>
             <div>
                 <img src="./img/perfil.png" class="quienes" alt="">
             </div>
-            <h1 class="titulardo">QUIENES SOMOS</h1>
+            <h2 class="titulardo">QUIENES SOMOS</h2>
                 <p class="parrafo">
                     <strong>Somos una empresa que ofrece servicios de construcción en general, casa, edificios, reciclados nos adaptamos a la necesidad del cliente particular o empresa, también tenemos novedosas construcciones y revoques proyectable tradicional en dónde tendrá rapidez y buena calidad de trabajo a un mejor precio.</strong>
                 </p>
@@ -88,26 +65,59 @@
 
         <div>
             <div class="row">
-                <div class="col-sm-4"><img src="./img/1.jpg" class="fotona" alt=""></div>
-                <div class="col-sm-8">
-                    <h2 class="serv">SERVICIOS</h2>
-                    <p class="serv1">>> Asesoramiento, anteproyecto, proyecto, diseño y modificación de planos
+                <div class="col-sm-6">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
 
-                        >> Obra en general, hormigón armado, visto
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="fotona" src="./img/1.jpg" alt="Los Angeles">
+                            </div>
+                            <div class="carousel-item">
+                            <img  class="fotona" src="./img/2.jpg" alt="Chicago">
+                            </div>
+                            <div class="carousel-item">
+                            <img  class="fotona" src="./img/3.jpg" alt="New York">
+                            </div>
+                        </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        
+                        </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <h2 class="serv">SERVICIOS</h2>
+                    <p class="serv1">Asesoramiento, anteproyecto, proyecto, diseño y modificación de planos
                         <br>
-                        >> Construcción de piletas de hormigón y de ladrillos
+                        Obra en general, hormigón armado, visto
                         <br>
-                        >> Construcción en seco, revoque proyectable tradicional, enlucido, yeso, masilla, Impermeabilizaciones
+                        Construcción de piletas de hormigón y de ladrillos
                         <br>
-                        >> Aplicación de texturado
+                        Construcción en seco, revoque proyectable tradicional, enlucido, yeso, masilla, Impermeabilizaciones
                         <br>
-                        >> Trabajo de mantenimiento, electricidad, plomería y gas en general
+                        Aplicación de texturado
                         <br>
-                        >> Pintura en general, hidrolavado
+                        Trabajo de mantenimiento, electricidad, plomería y gas en general
                         <br>
-                        >> Construcción, remodelación y ampliaciones
+                        Pintura en general, hidrolavado
                         <br>
-                        >> Construcción de edificio</p>
+                        Construcción, remodelación y ampliaciones
+                        <br>
+                        Construcción de edificio</p>
                 </div>
             </div>
         </div>
@@ -116,25 +126,22 @@
         <form action="/action_page.php">
             <div class="form-group">
                 <label for="name">Nombre y Apellido</label>
-                <input type="name" class="form-control" id="name">
+                <input type="name" class="form-control"  id="name">
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" id="email">
             </div>
-            <textarea name="" id="" cols="70" placeholder="Comente su consulta" rows="10"></textarea>
+            <textarea name="" id="" cols="70" placeholder="Ingrese su comentario" rows="10"></textarea>
             <br>
             <button type="reset" class="btn btn-primary">Limpiar Formulario</button>
             <button type="submit" class="btn btn-primary">Enviar Formulario</button>
             </form>
     </div>
         
-    <div>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark" id="mapardo">
         <iframe class="mapardo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.4427383644543!2d-60.72346268386721!3d-32.80703222898737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b650f79c2ae7a5%3A0x83f25ad0293705ac!2sDavicco%20F%C3%BAtbol%205!5e0!3m2!1ses-419!2sar!4v1669615236114!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    
-    <footer></footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
