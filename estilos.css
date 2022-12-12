@@ -10,41 +10,50 @@
   margin-top: 45px;
 }
 
-.dav {
-  color: white;
-  -webkit-text-decoration: underline 5% red;
-          text-decoration: underline 5% red;
+#holaaa {
+  font-size: 28px;
+  margin-top: 12px;
+  margin-left: 50px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+#holaaa:hover {
+  transform: scale(1.2);
+  color: red;
+  transition: 0.5s;
 }
 
 .boton {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
-.boton h1 {
+.boton h2 {
   text-align: center;
   color: white;
   margin-top: 200px;
   font-size: 25px;
   transform: scale(1);
   transition: 1.5s;
+  margin-bottom: 20px;
 }
-.boton h1:hover {
+.boton h2:hover {
   transform: scale(1.2);
   transition: 1.5s;
 }
 .boton button {
-  margin-top: 40px;
+  margin-top: 50px;
   font-size: 22px;
   background-color: red;
   color: white;
-  border: 2px solid black;
-  border-radius: 8px;
+  border: 0px solid black;
   padding: 10px;
-  padding: 15px 15px 15px 15px;
-  transform: translate(30px);
+  padding: 15px 45px 15px 45px;
+  transform: rotate(0deg);
   transition: 1.5s;
 }
 .boton button:hover {
-  transform: translate(-30px);
+  transform: rotate(360deg);
   transition: 1.5s;
   background-color: rgb(182, 14, 14);
 }
@@ -69,7 +78,7 @@
 .quienes {
   margin-top: 100px;
   margin-left: 625px;
-  margin-bottom: -40px;
+  margin-bottom: -35px;
   height: 100px;
   width: 100px;
 }
@@ -125,10 +134,72 @@
 #hola {
   color: white;
   text-decoration: none;
+  transition: 0.5s;
+  font-size: 19px;
+  margin-right: 50px;
+  margin-top: 12px;
 }
 
 #hola:hover {
   color: red;
+  transition: 0.5s;
+}
+
+.tituar {
+  margin-top: 100px;
+}
+.tituar h3 {
+  text-align: center;
+  color: blue;
+  font-size: 45px;
+  letter-spacing: 1px;
+}
+.tituar p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+
+.hache2 {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+}
+
+.imagengrid {
+  height: 250px;
+  width: 250px;
+  margin-left: 40px;
+  transform: scale(1);
+  transition: 1.2s;
+  filter: grayscale(100%);
+}
+
+.imagengrid:hover {
+  transform: scale(1.2);
+  transition: 1.2s;
+  filter: grayscale(0%);
+}
+
+.boton22 {
+  text-align: center;
+}
+.boton22 .boton2 {
+  margin-top: 50px;
+  padding: 20px 45px 20px 45px;
+  background-color: red;
+  border: 0px;
+  font-size: 20px;
+  color: white;
+}
+.boton22 .boton2:hover {
+  transition: 0.5s;
+  background-color: rgb(153, 5, 5);
 }
 
 #mapardo {
