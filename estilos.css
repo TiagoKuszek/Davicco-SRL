@@ -58,6 +58,28 @@
   background-color: rgb(182, 14, 14);
 }
 
+.boton1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+.boton1 button {
+  margin-top: -30px;
+  margin-bottom: 50px;
+  font-size: 22px;
+  background-color: red;
+  color: white;
+  border: 0px solid black;
+  padding: 10px;
+  padding: 15px 45px 15px 45px;
+  transform: scale(1);
+  transition: 1.5s;
+}
+.boton1 button:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
+  background-color: rgb(182, 14, 14);
+}
+
 .carrusel {
   text-align: center;
   background-color: rgb(255, 255, 255);
@@ -76,9 +98,12 @@
 }
 
 .quienes {
-  margin-top: 100px;
-  margin-left: 625px;
-  margin-bottom: -35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.quienes .quienes1 {
   height: 100px;
   width: 100px;
 }
@@ -87,7 +112,7 @@
   font-size: 35px;
   text-align: center;
   margin-top: 70px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   color: blue;
 }
 
@@ -244,4 +269,49 @@
   width: 700px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.redes {
+  text-align: center;
+  color: blue;
+  font-size: 35px;
+  margin-top: 60px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.btn #btn-fb {
+  height: 70px;
+  width: 70px;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.btn #btn-ig {
+  height: 70px;
+  width: 70px;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: red;
+}
+.btn #btn-wsp1 {
+  height: 70px;
+  width: 70px;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: green;
+}
+.btn #btn-tw {
+  height: 70px;
+  width: 70px;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
 }/*# sourceMappingURL=estilos.css.map */
