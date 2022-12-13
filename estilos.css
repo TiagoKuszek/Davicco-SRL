@@ -109,9 +109,9 @@
 }
 
 .titulardo {
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 60px;
   margin-bottom: 35px;
   color: blue;
 }
@@ -307,11 +307,4 @@
   margin-left: 50px;
   margin-right: 50px;
   color: green;
-}
-.btn #btn-tw {
-  height: 70px;
-  width: 70px;
-  font-size: 60px;
-  margin-left: 50px;
-  margin-right: 50px;
 }/*# sourceMappingURL=estilos.css.map */
