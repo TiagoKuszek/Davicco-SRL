@@ -108,6 +108,67 @@
   width: 100px;
 }
 
+.cotizar {
+  background-color: black;
+  padding: 50px 30px 50px 30px;
+  text-align: center;
+}
+.cotizar h3 {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.cotizar p {
+  font-size: 20px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.cotizar button {
+  color: white;
+  margin-top: 20px;
+  padding: 20px 30px 20px 30px;
+  background-color: red;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  filter: grayscale(100%);
+  transform: scale(1);
+  transition: 0.5s;
+}
+.cotizar button:hover {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.quehacemos {
+  background-color: black;
+  color: red;
+  text-align: center;
+}
+.quehacemos h2 {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+.quehacemos h3 {
+  margin: 30px 30px 30px 30px;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#casona {
+  height: 150px;
+  width: 150px;
+}
+
+#probando {
+  color: white;
+}
+
 .titulardo {
   font-size: 45px;
   text-align: center;
@@ -160,7 +221,7 @@
   color: white;
   text-decoration: none;
   transition: 0.5s;
-  font-size: 19px;
+  font-size: 17px;
   margin-right: 50px;
   margin-top: 12px;
 }
