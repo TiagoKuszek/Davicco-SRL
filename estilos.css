@@ -30,7 +30,7 @@
 }
 .boton h2 {
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-top: 200px;
   font-size: 25px;
   transform: scale(1);
@@ -51,11 +51,6 @@
   padding: 15px 45px 15px 45px;
   transform: rotate(0deg);
   transition: 1.5s;
-}
-.boton button:hover {
-  transform: rotate(360deg);
-  transition: 1.5s;
-  background-color: rgb(182, 14, 14);
 }
 
 .boton1 {
@@ -183,6 +178,7 @@
   margin-bottom: 100px;
   margin-left: 100px;
   margin-right: 100px;
+  color: rgb(48, 9, 9);
 }
 
 .fotona {
