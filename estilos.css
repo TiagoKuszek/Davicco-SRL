@@ -56,9 +56,10 @@
 .boton1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
+  margin-top: -50px;
 }
 .boton1 button {
-  margin-top: -30px;
+  margin-top: -150px;
   margin-bottom: 50px;
   font-size: 22px;
   background-color: red;
@@ -104,7 +105,7 @@
 }
 
 .cotizar {
-  background-color: black;
+  background-color: rgb(17, 17, 167);
   padding: 50px 30px 50px 30px;
   text-align: center;
 }
@@ -139,7 +140,7 @@
 }
 
 .quehacemos {
-  background-color: black;
+  background-color: rgb(17, 17, 167);
   color: red;
   text-align: center;
 }
@@ -167,9 +168,9 @@
 .titulardo {
   font-size: 45px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 35px;
-  color: blue;
+  color: rgb(29, 29, 180);
 }
 
 .parrafo {
@@ -178,7 +179,7 @@
   margin-bottom: 100px;
   margin-left: 100px;
   margin-right: 100px;
-  color: rgb(48, 9, 9);
+  color: rgb(0, 0, 0);
 }
 
 .fotona {
@@ -250,12 +251,14 @@
   color: blue;
   font-size: 40px;
   letter-spacing: 1px;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
+  padding-top: 100px;
 }
 
 .imagengrid {
-  height: 250px;
-  width: 250px;
+  height: 220px;
+  width: 220px;
+  margin-bottom: 40px;
   margin-left: 40px;
   transform: scale(1);
   transition: 1.2s;
@@ -286,6 +289,7 @@
 
 #mapardo {
   padding-bottom: 80px;
+  margin-left: 50px;
 }
 
 .form-group {
@@ -333,6 +337,7 @@
   color: blue;
   font-size: 35px;
   margin-top: 60px;
+  margin-right: 50px;
 }
 
 .btn {
@@ -364,4 +369,12 @@
   margin-left: 50px;
   margin-right: 50px;
   color: green;
+}
+
+#shelter {
+  height: 80px;
+  width: 80px;
+  font-size: 70px;
+  margin-right: 30px;
+  color: red;
 }/*# sourceMappingURL=estilos.css.map */
