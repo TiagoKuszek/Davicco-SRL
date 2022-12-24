@@ -1,3 +1,16 @@
+$color_1: black;
+$color_2: inherit;
+$color_3: rgb(255, 255, 255);
+$color_4: rgb(0, 0, 0);
+$font-family_1: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+$background-color_1: rgb(0, 0, 0);
+$background-color_2: rgb(65, 64, 64);
+$background-color_3: rgb(255, 255, 255);
+$FontS: 35px;
+$FontSz: 0;
+$FontSzz: 15;
+$Fullwidht: 100%;
+$aa: oscuro;
 *{
     margin: 0;
     padding: 0;
@@ -137,6 +150,7 @@
     background-color: rgb(17, 17, 167);
     color: red;
     text-align: center;
+    
     h2{
         padding-top: 50px;
         margin-bottom: 50px;
@@ -149,12 +163,14 @@
         margin-bottom: 50px;
     }
 }
+
 #casona{
     height: 150px;
     width: 150px;
 }
 #probando{
     color: white;
+    
 
 }
 .titulardo{
@@ -270,7 +286,7 @@
 
 #mapardo{
     padding-bottom: 80px;
-    margin-left: 50px;
+    
 }
 .form-group{
     margin-left: 300px;
@@ -282,7 +298,10 @@
     height: 55px;
     line-height: 55px;
     bottom: 30px;
-    right: 30px;
+    right: 50px;
+    z-index: 1;
+    
+
     background: #0df053;
     color: #fff;
     border-radius: 50px;
@@ -308,7 +327,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.redes{
+.socialmedia{
     text-align: center;
     color: blue;
     font-size: 35px;
@@ -321,6 +340,7 @@
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
+
     #btn-fb{
         height: 70px;
         width: 70px;
@@ -328,6 +348,7 @@
         margin-left: 50px;
         margin-right: 50px;
     }
+
     #btn-ig{
         height: 70px;
         width: 70px;
@@ -336,6 +357,7 @@
         margin-right: 50px;
         color: red;
     }
+    
     #btn-wsp1{
         height: 70px;
         width: 70px;
@@ -353,3 +375,71 @@
     margin-right: 30px;
     color: red;
 }
+
+.footer {
+	padding: 40px 0;
+    width: 100vw;
+	background-color: $background-color_2;
+	.redes {
+		text-align: center;
+		padding-bottom: 25px;
+		color: $color_1;
+		a {
+			font-size: 24px;
+			color: $color_2;
+
+			@if $aa == oscuro{
+				border: 1px solid rgb(0, 0, 0);
+			}
+
+			@else if $aa == claro{
+				border: white;
+			}
+			
+			width: 40px;
+			height: 40px;
+			line-height: 38px;
+			display: inline-block;
+			text-align: center;
+			border-radius: 50%;
+			margin: 0 9px;
+			opacity: 0.75;
+			&:hover {
+				opacity: 0.9;
+			}
+		}
+	}
+	ul {
+		margin-top: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 18px;
+		line-height: 1.6;
+		margin-bottom: 0;
+		text-align: center;
+		a {
+			color: $color_2;
+			text-decoration: none;
+			opacity: 0.8;
+		}
+		li {
+			a {
+				color: $color_2;
+				text-decoration: none;
+				opacity: 0.8;
+				&:hover {
+					opacity: 1;
+				}
+			}
+			display: inline-block;
+			padding: 0 15px;
+		}
+	}
+	.copyright {
+		margin-top: 15px;
+		text-align: center;
+		font-size: 13px;
+		color: $color_1;
+	}
+}
+
