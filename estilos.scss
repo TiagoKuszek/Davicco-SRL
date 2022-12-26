@@ -115,6 +115,12 @@ $aa: oscuro;
     background-color: rgb(17, 17, 167);
     padding: 50px 30px 50px 30px;
     text-align: center; 
+    h2{
+        color: red;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
     h3{
         color: red;
         font-size: 30px;
@@ -145,7 +151,10 @@ $aa: oscuro;
         transition: 0.5s;
         }
 }
-
+.pruebacar{
+    height: 500px;
+    width: 650px;
+}
 .quehacemos{
     background-color: rgb(17, 17, 167);
     color: red;
@@ -212,9 +221,21 @@ $aa: oscuro;
     margin-right: 100px;
     margin-left: 100px;
 }
+.mapayredes{
+    display: flex;
+}
 .mapardo{
-    width: 100%;
+    display: flex;
+    width: 50vw;
+    margin: auto;
     margin-top: 100px;
+}
+.contactanos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    width: 50vw;
+    margin: auto;
 }
 #hola{
     color: white;
@@ -378,7 +399,7 @@ $aa: oscuro;
 
 .footer {
 	padding: 40px 0;
-    width: 100vw;
+    width: 100%;
 	background-color: $background-color_2;
 	.redes {
 		text-align: center;
