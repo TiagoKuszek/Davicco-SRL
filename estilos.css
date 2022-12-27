@@ -222,6 +222,7 @@
 
 .mapayredes {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .mapardo {
@@ -229,6 +230,12 @@
   width: 50vw;
   margin: auto;
   margin-top: 100px;
+}
+
+.hola1234 {
+  text-align: center;
+  color: blue;
+  margin-top: 60px;
 }
 
 .contactanos {
@@ -278,22 +285,6 @@
   letter-spacing: 1px;
   margin-bottom: 130px;
   padding-top: 100px;
-}
-
-.imagengrid {
-  height: 220px;
-  width: 220px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  transform: scale(1);
-  transition: 1.2s;
-  filter: grayscale(100%);
-}
-
-.imagengrid:hover {
-  transform: scale(1.2);
-  transition: 1.2s;
-  filter: grayscale(0%);
 }
 
 .boton22 {
@@ -463,16 +454,11 @@
   color: black;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background: rgb(255, 255, 255);
-  font-family: sans-serif;
-}
-
-h1 {
-  font-size: 70px;
-  color: rgb(0, 0, 0);
+.nuestrost {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  color: blue;
   text-align: center;
 }
 
@@ -481,12 +467,29 @@ h1 {
   margin: auto;
 }
 
+.probandohover {
+  transform: scale(1);
+  transition: 1.2s;
+  filter: grayscale(100%);
+}
+.probandohover .probandohover:hover {
+  transform: scale(1.2);
+  transition: 1.2s;
+  filter: grayscale(0%);
+}
+
+.cardavic {
+  height: 450px;
+  width: 650px;
+  margin-bottom: 50px;
+}
+
 img {
   width: 100%;
 }
 
 .trabajo__columna {
-  margin: 5px;
+  margin: 20px;
 }
 
 .trabajos .contenedor {
