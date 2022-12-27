@@ -478,6 +478,31 @@
   filter: grayscale(0%);
 }
 
+.underline {
+  color: var(--blue-dark);
+  font-size: 6rem;
+  display: inline-block;
+  position: relative;
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--pink);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-out;
+}
+
+.underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .cardavic {
   height: 450px;
   width: 650px;
